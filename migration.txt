@@ -1,0 +1,1 @@
+ALTER TABLE  `iwater_orders` CHANGE  `number_visit`  `number_visit` INT( 11 ) NULL

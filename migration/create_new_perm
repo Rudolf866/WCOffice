@@ -1,0 +1,9 @@
+INSERT INTO `u00023`.`iwater_perms` (`name`, `desc`) VALUES ('driver_list', 'Путевой лист водителя');
+                                                                      UPDATE `u00023`.`iwater_perms` SET `id`='15' WHERE  `name`='driver_list';
+
+INSERT INTO `u00023`.`iwater_perms` (`name`, `desc`) VALUES ('driver_map', 'Карта водителя');
+                                                                      UPDATE `u00023`.`iwater_perms` SET `id`='18' WHERE  `name`='driver_map';
+INSERT INTO `u00023`.`iwater_perms` (`name`, `desc`) VALUES ('driver_notice', 'Уведомления');
+                                                                      UPDATE `u00023`.`iwater_perms` SET `id`='18' WHERE  `name`='driver_notice';
+INSERT INTO `u00023`.`iwater_perms` (`name`, `desc`) VALUES ('settings', 'Настройки');
+                                                                      UPDATE `u00023`.`iwater_perms` SET `id`='18' WHERE  `name`='settings';

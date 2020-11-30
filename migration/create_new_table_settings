@@ -1,0 +1,9 @@
+CREATE TABLE `iwater_settings` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL DEFAULT '0',
+	`data` VARCHAR(255) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB
+;
+INSERT INTO `u00023`.`iwater_settings` (`name`, `data`) VALUES ('email_to_smtp', '');

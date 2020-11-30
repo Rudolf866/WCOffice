@@ -1,0 +1,13 @@
+
+
+AddType application/octet-stream .xlsx
+AddType application/octet-stream .xls
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /iwaterTest/index.php [L,QSA]
+
+php_value session.gc_maxlifetime 18000
+php_value session.cookie_lifetime 0
+
+php_flag display_errors On
